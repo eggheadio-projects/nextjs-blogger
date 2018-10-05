@@ -5,7 +5,7 @@ import { Card, CardHeader, CardText } from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 import Link from 'next/link';
 
-const Index = ({ posts }) => 
+const Index = ({ posts=[] }) => 
     <div>
     <Header />
       {
