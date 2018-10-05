@@ -4,7 +4,7 @@ import 'isomorphic-fetch';
 import { Card, CardHeader, CardText } from 'material-ui/Card';
 import RaisedButton from 'material-ui/RaisedButton';
 
-const Index = ({ posts }) => 
+const Index = ({ posts=[] }) => 
     <div>
     <Header />
       {
